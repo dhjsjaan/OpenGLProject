@@ -1,0 +1,4 @@
+"D:\Clion\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\OMEN\Desktop\OpenGLProject -B C:\Users\OMEN\Desktop\OpenGLProject\cmake-build-debug-mingw64
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64

@@ -1,0 +1,2 @@
+D:\mingw\mingw64\bin\ar.exe qc libimguilib.a CMakeFiles/imguilib.dir/imgui.cpp.obj CMakeFiles/imguilib.dir/imgui_demo.cpp.obj CMakeFiles/imguilib.dir/imgui_draw.cpp.obj CMakeFiles/imguilib.dir/imgui_impl_glfw.cpp.obj CMakeFiles/imguilib.dir/imgui_impl_opengl3.cpp.obj CMakeFiles/imguilib.dir/imgui_tables.cpp.obj CMakeFiles/imguilib.dir/imgui_widgets.cpp.obj
+D:\mingw\mingw64\bin\ranlib.exe libimguilib.a

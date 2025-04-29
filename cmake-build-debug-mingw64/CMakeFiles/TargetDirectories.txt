@@ -1,0 +1,6 @@
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/CMakeFiles/openGLProject.dir
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/CMakeFiles/edit_cache.dir
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/CMakeFiles/rebuild_cache.dir
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/thirdparty/imgui-docking/CMakeFiles/imguilib.dir
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/thirdparty/imgui-docking/CMakeFiles/edit_cache.dir
+C:/Users/OMEN/Desktop/OpenGLProject/cmake-build-debug-mingw64/thirdparty/imgui-docking/CMakeFiles/rebuild_cache.dir
