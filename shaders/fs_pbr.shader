@@ -29,7 +29,7 @@ float DistributionGGX(vec3 N, vec3 H, float roughness)
   float denom = (NdotH2 * (a2 - 1.0) + 1.0);
   denom = PI * denom * denom;
 
-  return nom / max(denom, 0.0000001); // prevent divide by zero for roughness=0.0 and NdotH=1.0
+  return nom / max(denom, 0.0000001); 
 }
 
 float GeometrySchlickGGX(float NdotV, float roughness)
@@ -81,7 +81,7 @@ void main()
 
   vec3 nominator = NDF * G * F;
   float denominator = 4 * max(dot(N, V), 0.0) * max(dot(N, L), 0.0);
-  vec3 specular = nominator / max(denominator, 0.001); // prevent divide by zero for NdotV=0.0 or NdotL=0.0
+  vec3 specular = nominator / max(denominator, 0.001); 
 
   vec3 kS = F;
 
@@ -91,7 +91,7 @@ void main()
 
   float NdotL = max(dot(N, L), 0.0);
 
-  Lo += (kD * albedo / PI + specular) * radiance * NdotL;  // note that we already multiplied the BRDF by the Fresnel (kS) so we won't multiply by kS again
+  Lo += (kD * albedo / PI + specular) * radiance * NdotL;  
 
 
   vec3 ambient = vec3(0.03) * albedo * ao;
